@@ -39,3 +39,11 @@ Thumbs.db
 
 # Dynamic Configuration
 config.json
+
+# Personal scripts and helpers
+Turnout.bat
+*.bat
+git-setup.bat
+setup-git.ps1
+git-commands.txt
+push.bat
