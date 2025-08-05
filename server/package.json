@@ -1,0 +1,30 @@
+{
+  "name": "turnout-server",
+  "version": "1.0.0",
+  "description": "Backend for the Turnout application.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "cross-env PORT=5001 nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^2.7.0",
+    "plural": "^1.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.2"
+  }
+}
